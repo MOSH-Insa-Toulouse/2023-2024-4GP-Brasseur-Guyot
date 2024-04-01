@@ -2,10 +2,11 @@
 #include <SPI.h>
 #include <Adafruit_SSD1306.h>
 
+
 // Bluetooth
 
-#define rxPin 8
-#define txPin 7
+#define rxPin 7
+#define txPin 8
 #define baudrate 9600
 SoftwareSerial mySerial(rxPin, txPin);
 
@@ -119,6 +120,8 @@ void loop()
 
   int resDigipot;
 
+  String fullString;
+
   valCap = analogRead(A0)*5.0/1024;
   valFlex = analogRead(A1)*5.0/1024;
   
@@ -160,13 +163,13 @@ void loop()
   Serial.println("");*/
 
   // Bluetooth display
-  mySerial.print("Capteur : ");
-  mySerial.println(valCap);
-  mySerial.print("Flex : ");
-  mySerial.println(valFlex);
-  mySerial.print("R2 : ");
-  mySerial.println(resDigipot*100000/256);
-  mySerial.println("");
+  fullString += String(valCap);
+  fullString += ";";
+  fullString += String(valFlex);
+  fullString += ";";
+  fullString += String(resDigipot*100000/256);
+  fullString += ";";
+  mySerial.println(fullString);
 
   // screen display
   ecranOLED.clearDisplay();
@@ -180,5 +183,5 @@ void loop()
   ecranOLED.println(resDigipot*100000/256);
   ecranOLED.display();
   
-  delay(1000);
+  delay(60);
 }
