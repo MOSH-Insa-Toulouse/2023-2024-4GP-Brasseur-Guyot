@@ -10,6 +10,8 @@
 #define baudrate 9600
 SoftwareSerial mySerial(rxPin, txPin);
 
+int i = 0;
+
 // Digital potentiometre
 
 #define MCP_NOP 0b00000000
@@ -162,14 +164,20 @@ void loop()
   Serial.println(resDigipot);
   Serial.println("");*/
 
-  // Bluetooth display
-  fullString += String(valCap);
-  fullString += ";";
-  fullString += String(valFlex);
-  fullString += ";";
-  fullString += String(resDigipot*100000/256);
-  fullString += ";";
-  mySerial.println(fullString);
+  i++;
+  if (i == 10) i = 0;
+  if(i==9) {
+    // Bluetooth display
+    fullString += String(valCap);
+    fullString += ";";
+    fullString += String(valFlex);
+    fullString += ";";
+    fullString += String(resDigipot*100000/256);
+    fullString += ";";
+    mySerial.println(fullString);
+  }
+
+  
 
   // screen display
   ecranOLED.clearDisplay();
@@ -183,5 +191,5 @@ void loop()
   ecranOLED.println(resDigipot*100000/256);
   ecranOLED.display();
   
-  delay(60);
+  delay(50);
 }
