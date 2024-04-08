@@ -7,6 +7,10 @@ Ensuite, un graphe (en développement) permet de visualiser la variation en temp
 
 ![Logo App Capteur](./Logo_Capteur-Graphite.png?raw=true "Logo")
 
-### Version 1.1
+### Version 0.1
 
 Corrigé la reconnaissance vocale, et les erreurs d'affichages des mesures
+
+### Version 0.2
+
+Les graphiques de suivi des valeurs sont désormais fonctionnels
