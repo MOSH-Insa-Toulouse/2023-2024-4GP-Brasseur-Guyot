@@ -138,16 +138,7 @@ void loop()
   {
     encoder0Pos = -126;
     encoderState = -126;
-  }
-  /*if (reading != lastEncoderState) {
-    lastDebounceTime = millis(); // reset the debouncing timer
-  }
-  if ((millis() - lastDebounceTime) > debounceDelay)
-  { // whatever the reading is at, it's been there for longer than the debounce delay, so take it as the actual current state:
-    encoderState = reading;
-  }
-  lastEncoderState = reading; // save the reading. Next time through the loop, it'll be the lastButtonState*/
-  
+  } 
   
 
   resDigipot = encoderState + 127;
