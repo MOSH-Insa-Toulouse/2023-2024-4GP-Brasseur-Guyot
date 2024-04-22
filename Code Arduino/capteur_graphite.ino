@@ -146,15 +146,6 @@ void loop()
 
   SPIWrite(MCP_WRITE, resDigipot, ssMCPin);
   
-  // monitor display
-  /*Serial.print("Capteur : ");
-  Serial.println(valCap);
-  Serial.print("Flex : ");
-  Serial.println(valFlex);
-  Serial.print("R2 : ");
-  Serial.println(resDigipot);
-  Serial.println("");*/
-
   i++;
   if (i == 10) i = 0;
   if(i==9) {
