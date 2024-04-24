@@ -59,14 +59,7 @@ void doEncoder() {
   }
 }
 
-// encoder debouncing
-long lastDebounceTime = 0; // the last time the output pin was toggled
-long debounceDelay = 200; // the debounce time; increase if the output flickers
-
-int reading;
 int encoderState;
-int lastEncoderState = 0;
-
 
 void setup() {
   // def pins Bluetooth
@@ -138,28 +131,26 @@ void loop()
   {
     encoder0Pos = -126;
     encoderState = -126;
-  } 
+  }  
+  
+  SPIWrite(MCP_WRITE, encoderState + 127, ssMCPin);
+
+  resDigipot = 50000 - 50000*(encoderState + 127)/256;
   
 
-  resDigipot = encoderState + 127;
-
-
-  SPIWrite(MCP_WRITE, resDigipot, ssMCPin);
-  
+  // Bluetooth display
   i++;
   if (i == 10) i = 0;
   if(i==9) {
-    // Bluetooth display
     fullString += String(valCap);
     fullString += ";";
     fullString += String(valFlex);
     fullString += ";";
-    fullString += String(resDigipot*100000/256);
+    fullString += String(resDigipot);
     fullString += ";";
     mySerial.println(fullString);
   }
 
-  
 
   // screen display
   ecranOLED.clearDisplay();
@@ -170,7 +161,7 @@ void loop()
   ecranOLED.print("Flex : ");
   ecranOLED.println(valFlex);
   ecranOLED.print("R2 : ");
-  ecranOLED.println(resDigipot*100000/256);
+  ecranOLED.println(resDigipot);
   ecranOLED.display();
   
   delay(50);
