@@ -25,15 +25,15 @@ La *datasheet* est accessible à l'adresse suivante : https://google.com
 
 ### KiCad
 
-Explications disponibles [ici]("KiCad/")
+Explications disponibles [ici]((https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Brasseur-Guyot/tree/main/KiCad))
 
 ### Code Arduino
 
-Explications disponibles [ici]("Code Arduino/")
+Explications disponibles [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Brasseur-Guyot/tree/main/Code%20Arduino)
 
 ### Application Android
 
-Explications disponibles [ici]("Application Android/")
+Explications disponibles [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Brasseur-Guyot/tree/main/Application%20Android)
 
 ## 3 - Mode d'emploi
 
