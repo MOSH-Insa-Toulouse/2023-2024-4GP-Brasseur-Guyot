@@ -5,6 +5,8 @@ Projet capteur low-tech en graphite par Damien Brasseur et Tristan Guyot
 
 ### Principe
 
+Les capteurs sont partout. Dès qu’on cherche à automatiser un système, quel qu’il soit, on a besoin de capteurs. Pourtant, la plupart sont très coûteux en énergie, et leur multiplication fait qu’ils sont de plus en plus impactants sur l’environnement. C’est pour ça que les capteurs low-tech représentent un atout non négligeable. 
+
 Un dépôt de graphite sur du papier forme un système granulaire, composé de grains de plus ou moins grande taille espacés d'une certaine distance, appelée distance inter-grain.
 Cette propriété fait que sa conductance dépend de façon exponentielle de la distance inter-grain, qui peut être modulée en repliant le papier.
 Ainsi, on peut retrouver la contrainte appliquée au matériau directement en mesurant la résistance aux bornes du capteur.
@@ -21,7 +23,11 @@ Ainsi, on peut retrouver la contrainte appliquée au matériau directement en me
 
 La *datasheet* est accessible à l'adresse suivante : https://google.com
 
+### Capteur
+
 ### Electronique
+
+
 
 ### KiCad
 
@@ -53,4 +59,4 @@ Pour assurer la connexion entre la carte Arduino et le téléphone, il faut d'ab
 
 ## 4 - Tests du capteur graphite
 
-Nous avons réalisé des mesures avec des capteurs comportant différentes densités de graphite (variant avec le type de crayon), et pour des 
+Nous avons réalisé des mesures avec des capteurs comportant différentes densités de graphite (variant avec le type de crayon), et pour une gamme d'angles compris entre
