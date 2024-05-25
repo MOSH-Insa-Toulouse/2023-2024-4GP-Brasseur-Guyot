@@ -25,8 +25,11 @@ La *datasheet* est accessible à l'adresse suivante : https://google.com
 
 ### Capteur
 
+<img src="Images/Dimensions_capteur.png" alt="Le capteur graphite" width="500"> <br>
+
 ### Electronique
 
+<img src="Images/Circuit_Elec.png" alt="Schéma de l'amplification" width="700"> <br>
 
 
 ### KiCad
