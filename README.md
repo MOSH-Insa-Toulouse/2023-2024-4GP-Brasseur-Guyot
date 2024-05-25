@@ -1,7 +1,7 @@
 # 2023-2024-4GP-Brasseur-Guyot
 Projet capteur low-tech en graphite par Damien Brasseur et Tristan Guyot
 
-## Description générale du projet
+## 1 - Description générale du projet
 
 ### Principe
 
@@ -17,7 +17,14 @@ Ainsi, on peut retrouver la contrainte appliquée au matériau directement en me
  - Un écran OLED, sur lequel les mesures sont affichées en temps-réel
  - Une application Android, connectée en Bluetooth, sur laquelle les mesures et leur variation peuvent être visionnée
 
+## 2 - Caractéristiques techniques
+
+La \textit{datasheet} est accessible à l'adresse suivante : \url{https://google.com}.
+
 ## Mode d'emploi
+
+L'application est à télécharger 
+
 
 Le dossier KiCad est à télécharger dans son intégralité.
 Une fois téléchargé, il faudra recharger les librairies de symboles depuis le dossier Mods.
