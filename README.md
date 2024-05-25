@@ -25,7 +25,7 @@ La *datasheet* est accessible à l'adresse suivante : https://google.com
 
 ### KiCad
 
-Explications disponibles [ici]((https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Brasseur-Guyot/tree/main/KiCad))
+Explications disponibles [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Brasseur-Guyot/tree/main/KiCad)
 
 ### Code Arduino
 
