@@ -19,6 +19,8 @@ Ainsi, on peut retrouver la contrainte appliquée au matériau directement en me
  - Un écran OLED, sur lequel les mesures sont affichées en temps-réel
  - Une application Android, connectée en Bluetooth, sur laquelle les mesures et leur variation peuvent être visionnée
 
+<img src="Images/Capteur_Shield.png" alt="Le projet dans son ensemble" width="300"> <br>
+
 ## 2 - Caractéristiques techniques
 
 La *datasheet* est accessible à l'adresse suivante : https://google.com
