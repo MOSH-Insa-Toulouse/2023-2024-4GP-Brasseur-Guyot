@@ -13,7 +13,7 @@ Ainsi, on peut retrouver la contrainte appliquée au matériau directement en me
 
 ### Contenu du banc
 
-<img src="Images/Capteur_Shield.png" alt="Le projet dans son ensemble" width="700"> <br>
+<img src="Images/Capteur_Shield.png" alt="Le projet dans son ensemble" width="900"> <br>
 
  - Le capteur graphite (interchangeable)
  - Un amplificateur permettant de mesurer avec précision les variations (cette amplification peut être modulée via la modification de la résistance R2 de la boucle de rétroaction de l'amplificateur, pilotée grâce à l'encodeur rotatoire)
