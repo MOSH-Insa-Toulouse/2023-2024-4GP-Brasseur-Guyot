@@ -19,14 +19,33 @@ Ainsi, on peut retrouver la contrainte appliquée au matériau directement en me
 
 ## 2 - Caractéristiques techniques
 
-La \textit{datasheet} est accessible à l'adresse suivante : \url{https://google.com}.
+La *datasheet* est accessible à l'adresse suivante : https://google.com
 
-## Mode d'emploi
+### Electronique
 
-L'application est à télécharger 
+### KiCad
 
+Explications disponibles [ici]("KiCad/")
+
+### Code Arduino
+
+Explications disponibles [ici]("Code Arduino/")
+
+### Application Android
+
+Explications disponibles [ici]("Application Android/")
+
+## 3 - Mode d'emploi
+
+### KiCad
 
 Le dossier KiCad est à télécharger dans son intégralité.
 Une fois téléchargé, il faudra recharger les librairies de symboles depuis le dossier Mods.
 
-Le code arduino n'est pas encore complet.
+### Code Arduino
+
+Pour charger le code sur la carte **Arduino UNO**, rien de plus facile ! Il suffit de l'ouvrir dans l'application **Arduino IDE** avec la carte branchée en USB, puis cliquer sur *Upload*.
+
+### Application Android
+
+L'application est à télécharger sur téléphone.
