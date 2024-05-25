@@ -29,7 +29,7 @@ La *datasheet* est accessible à l'adresse suivante : https://google.com
 
 ### Electronique
 
-<img src="Images/Circuit_Elec.png" alt="Schéma de l'amplification" width="700"> <br>
+<img src="Images/Circuit_Elec.png" alt="Schéma de l'amplification" width="900"> <br>
 
 
 ### KiCad
