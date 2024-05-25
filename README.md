@@ -65,12 +65,12 @@ Le banc de test sur lequel nous avons testé les mesures comporte 4 demi-cercles
 
 Voici la caractéristique en détente : 
 
-![Détente](./Banc de test/TestDétente.png)
+<img src="Banc de test/TestDétente.png" alt="Caractéristique en détente" width="300"> <br>
 
 On remarque que la variation de résistance la plus marquée (pente la plus élevée) est cele du capteur au crayon 4H. De façon surprenante, le capteur au cayon HB est moins efficace que le capteur 4B.
 
 Voici la caractéristique en compression : 
 
-![Compression](./Banc de test/TestCompression.png)
+<img src="Banc de test/TestCompression.png" alt="Caractéristique en compression" width="300"> <br>
 
 Même comportement, sauf qu'une limite a été atteinte en mesure de compression (demi-cercle de 2cm) avec le capteur 4H. Le flex sensor ne fonctionnant que dans un seul sens, nous n'avons pas pu le tester dans ces conditions.
