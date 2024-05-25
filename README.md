@@ -44,8 +44,13 @@ Une fois téléchargé, il faudra recharger les librairies de symboles depuis le
 
 ### Code Arduino
 
-Pour charger le code sur la carte **Arduino UNO**, rien de plus facile ! Il suffit de l'ouvrir dans l'application **Arduino IDE** avec la carte branchée en USB, puis cliquer sur *Upload*.
+Pour charger le code sur la carte **Arduino UNO**, rien de plus facile ! Il suffit de l'ouvrir dans l'application Arduino IDE avec la carte branchée en USB, puis cliquer sur *Upload*.
 
 ### Application Android
 
-L'application est à télécharger sur téléphone.
+L'application est à télécharger sur un téléphone Android. Après l'installation, aller dans les paramètres des applications Android et accorder l'accès au Bluetooth et au micro à l'application.
+Pour assurer la connexion entre la carte Arduino et le téléphone, il faut d'abord se connecter au module Bluetooth de la carte avec l'interface générale Bluetooth du téléphone. Ensuite, on pourra sélectionner dans l'application le module et on pourra commencer à s'amuser.
+
+## 4 - Tests du capteur graphite
+
+Nous avons réalisé des mesures avec des capteurs comportant différentes densités de graphite (variant avec le type de crayon), et pour des 
