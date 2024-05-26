@@ -4,7 +4,7 @@ Projet capteur low-tech en graphite par Damien Brasseur et Tristan Guyot
 
 ### Contacts
 
-Damien : brasseu@insa-toulouse.fr
+Damien : brasseu@insa-toulouse.fr <br>
 Tristan : tguyot@insa-toulouse.fr
 
 ## 1 - Description générale du projet
