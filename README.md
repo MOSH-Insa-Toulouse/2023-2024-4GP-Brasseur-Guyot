@@ -1,6 +1,6 @@
 # 2023-2024-4GP-Brasseur-Guyot
 
-Projet capteur low-tech en graphite par Damien Brasseur et Tristan Guyot
+Projet capteur low-tech en graphite par Damien Brasseur et Tristan Guyot : le **BG0524-LTG**
 
 ### Contexte
 
