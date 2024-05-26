@@ -57,7 +57,7 @@ L'électronique analogique permettant d'amplifier et de filtrer le signal du cap
  - Un filtre actif basé sur l'amplificateur permettant une efficacité maximale
  - Un filtre passif en sortie pour éliminer le bruit introduit lors du traitement.
 
-<img src="Images/Schema_elec.png" alt="Schéma de l'amplification" width="900"> <br>
+<img src="./Images/Schema-elec.png" alt="Schéma de l'amplification" width="900"> <br>
 
 
 ### KiCad
