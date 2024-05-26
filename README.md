@@ -72,7 +72,7 @@ Explications disponibles [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4
 
 Explications disponibles [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Brasseur-Guyot/tree/main/Application%20Android)
 
-<a name="pookie"> ## 3 - Mode d'emploi
+## 3 - Mode d'emploi <a name="pookie">
 
 ### KiCad
 
