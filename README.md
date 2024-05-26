@@ -15,7 +15,7 @@ Tristan : tguyot@insa-toulouse.fr
 
 [Description générale du projet](#1---description-générale-du-projet) <br>
 [Caractéristiques techniques](#2---caractéristiques-techniques) <br>
-[Mode d'emploi](#3---mode-d-'-emploi) <br>
+[Mode d'emploi](#3---mode-d-emploi) <br>
 [Tests du capteur graphite](#4---tests-du-capteur-graphite)
 
 ## 1 - Description générale du projet
