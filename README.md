@@ -33,7 +33,7 @@ Ainsi, on peut retrouver la contrainte appliquée au matériau directement en me
 
 ## 2 - Caractéristiques techniques
 
-La *datasheet* est accessible à l'adresse suivante : https://google.com
+La *datasheet* est accessible [ici](./Datasheet/datasheet_capteur-graphite_final.pdf)
 
 ### Capteur
 
@@ -50,7 +50,7 @@ L'électronique analogique permettant d'amplifier et de filtrer le signal du cap
  - Un filtre actif basé sur l'amplificateur permettant une efficacité maximale
  - Un filtre passif en sortie pour éliminer le bruit introduit lors du traitement.
 
-<img src="Images/Circuit_Elec.png" alt="Schéma de l'amplification" width="900"> <br>
+<img src="Images/Schema_elec.png" alt="Schéma de l'amplification" width="900"> <br>
 
 
 ### KiCad
