@@ -13,12 +13,12 @@ Tristan : tguyot@insa-toulouse.fr
 
 ### Table des matières
 
-[Description générale du projet](#1---description-générale-du-projet) <br>
-[Caractéristiques techniques](#2---caractéristiques-techniques) <br>
+[Description générale du projet](#coo) <br>
+[Caractéristiques techniques](#zozo) <br>
 [Mode d'emploi](#pookie) <br>
-[Tests du capteur graphite](#4---tests-du-capteur-graphite)
+[Tests du capteur graphite](#booboo)
 
-## 1 - Description générale du projet
+## 1 - Description générale du projet <a name="coo">
 
 ### Principe
 
@@ -38,7 +38,7 @@ Ainsi, on peut retrouver la contrainte appliquée au matériau directement en me
  - Un écran OLED, sur lequel les mesures sont affichées en temps-réel
  - Une application Android, connectée en Bluetooth, sur laquelle les mesures et leur variation peuvent être visionnée
 
-## 2 - Caractéristiques techniques
+## 2 - Caractéristiques techniques <a name="zozo">
 
 La *datasheet* est accessible [ici](./Datasheet/datasheet_capteur-graphite_final.pdf)
 
@@ -88,7 +88,7 @@ Pour charger le code sur la carte **Arduino UNO**, rien de plus facile ! Il suff
 L'application est à télécharger sur un téléphone Android. Après l'installation, aller dans les paramètres des applications Android et accorder l'accès au Bluetooth et au micro à l'application.
 Pour assurer la connexion entre la carte Arduino et le téléphone, il faut d'abord se connecter au module Bluetooth de la carte avec l'interface générale Bluetooth du téléphone. Ensuite, on pourra sélectionner dans l'application le module et on pourra commencer à s'amuser.
 
-## 4 - Tests du capteur graphite
+## 4 - Tests du capteur graphite <a name="booboo">
 
 Nous avons réalisé des mesures de compression et de détente avec des capteurs comportant différentes densités de graphite (variant avec le type de crayon : 4H, HB et 4B), ainsi que pour le Flex sensor.
 
