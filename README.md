@@ -2,6 +2,10 @@
 
 Projet capteur low-tech en graphite par Damien Brasseur et Tristan Guyot
 
+### Contexte
+
+Ce capteur a été réalisé, instrumenté et caractérisé dans le cadre d'un projet de 4ème année au département du Génie Physique de l'INSA TOULOUSE, encadré par Jérémie Grisolia, Benjamin Mestre, Arnaud Biganzoli et Cathy Crouzet. Tout le code, schématiques et mesures sont *open source* et réutilisables à volonté.
+
 ### Contacts
 
 Damien : brasseu@insa-toulouse.fr <br>
