@@ -15,7 +15,7 @@ Tristan : tguyot@insa-toulouse.fr
 
 [Description générale du projet](#1---description-générale-du-projet) <br>
 [Caractéristiques techniques](#2---caractéristiques-techniques) <br>
-[Mode d'emploi](#3---mode-d-emploi) <br>
+[Mode d'emploi](#pookie) <br>
 [Tests du capteur graphite](#4---tests-du-capteur-graphite)
 
 ## 1 - Description générale du projet
@@ -72,7 +72,7 @@ Explications disponibles [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4
 
 Explications disponibles [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-Brasseur-Guyot/tree/main/Application%20Android)
 
-## 3 - Mode d'emploi
+<a name="pookie"> ## 3 - Mode d'emploi
 
 ### KiCad
 
