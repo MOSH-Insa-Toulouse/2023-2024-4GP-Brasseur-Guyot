@@ -1,5 +1,11 @@
 # 2023-2024-4GP-Brasseur-Guyot
+
 Projet capteur low-tech en graphite par Damien Brasseur et Tristan Guyot
+
+### Contacts
+
+Damien : brasseu@insa-toulouse.fr
+Tristan : tguyot@insa-toulouse.fr
 
 ## 1 - Description générale du projet
 
@@ -75,7 +81,7 @@ Pour assurer la connexion entre la carte Arduino et le téléphone, il faut d'ab
 
 Nous avons réalisé des mesures de compression et de détente avec des capteurs comportant différentes densités de graphite (variant avec le type de crayon : 4H, HB et 4B), ainsi que pour le Flex sensor.
 
-Le banc de test sur lequel nous avons testé les mesures comporte 4 demi-cercles de diamètres 2cm, 3cm, 4cm et 5cm, respectivement.
+Le banc de test sur lequel nous avons testé les mesures comporte 4 demi-cercles de diamètres 2cm, 3cm, 4cm et 5cm, respectivement. La déformation est calculée selon l'expression suivante : $\epsilon = \frac{D}{e}$ avec $D$ diamètre du demi-cercle et $e$ épaisseur du papier.
 
 Voici la caractéristique en détente : 
 
