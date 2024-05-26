@@ -27,9 +27,18 @@ La *datasheet* est accessible à l'adresse suivante : https://google.com
 
 ### Capteur
 
+Le capteur est constitué d'une feuille de papier recouverte de graphite déposé au crayon selon un patterne spécifique :
+
 <img src="Images/Dimensions_capteur.png" alt="Le capteur graphite" width="500"> <br>
 
+L'épaisseur du papier utilisé est de 200 µm.
+
 ### Electronique
+
+L'électronique analogique permettant d'amplifier et de filtrer le signal du capteur graphite est composé d'un amplificateur transimpédance et de trois filtres :
+ - Un filtre passif en entrée permettant d'éviter la distortion dans l'étage d'entrée
+ - Un filtre actif basé sur l'amplificateur permettant une efficacité maximale
+ - Un filtre passif en sortie pour éliminer le bruit introduit lors du traitement.
 
 <img src="Images/Circuit_Elec.png" alt="Schéma de l'amplification" width="900"> <br>
 
