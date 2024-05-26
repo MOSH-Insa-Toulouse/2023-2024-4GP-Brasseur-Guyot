@@ -52,7 +52,7 @@ L'épaisseur du papier utilisé est de 200 µm.
 
 ### Electronique
 
-L'électronique analogique permettant d'amplifier et de filtrer le signal du capteur graphite est composé d'un amplificateur transimpédance et de trois filtres :
+L'électronique analogique permettant d'amplifier et de filtrer le signal du capteur graphite est composé d'un amplificateur transimpédance LTC1050 et de trois filtres :
  - Un filtre passif en entrée permettant d'éviter la distortion dans l'étage d'entrée
  - Un filtre actif basé sur l'amplificateur permettant une efficacité maximale
  - Un filtre passif en sortie pour éliminer le bruit introduit lors du traitement.
